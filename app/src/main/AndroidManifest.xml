@@ -29,6 +29,9 @@
         <activity
             android:name=".ComplaintsForm"
             android:label="Welcome to the Rpocket" />
+        <activity
+            android:name=".LiveNotification"
+            android:label="Welcome to the Rpocket" />
     </application>
 
 </manifest>

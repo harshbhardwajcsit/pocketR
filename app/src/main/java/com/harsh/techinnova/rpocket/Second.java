@@ -39,7 +39,7 @@ public class Second extends Activity implements View.OnClickListener{
 
         switch (v.getId()) {
             case R.id.noti:
-                startActivity(new Intent(Second.this,Complaints.class));
+                startActivity(new Intent(Second.this,LiveNotification.class));
                 break;
             case R.id.docs:
                 startActivity(new Intent(Second.this,Complaints.class));
