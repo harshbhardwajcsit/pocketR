@@ -9,48 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     >
-    <EditText
-        android:id="@+id/contact"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/location"
-        android:layout_below="@+id/name"
-        android:layout_marginTop="14dp"
-        android:ems="10"
-        android:hint="Contact "
-        android:inputType="phone"
-        android:singleLine="true" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
-        android:id="@+id/adhaar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/contact"
-        android:layout_below="@+id/contact"
-        android:layout_marginTop="21dp"
-        android:ems="10"
-        android:hint="ADHAAR Number"
-        android:inputType="number"
-        android:singleLine="true" />
-
-    <EditText
-        android:id="@+id/name"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/location"
-
-        android:layout_marginTop="19dp"
-        android:ems="10"
-        android:hint="Enter Name"
-        android:inputType="textPersonName"
-        android:singleLine="true" />
-
-
     <Spinner
-
         android:id="@+id/planets_spinner"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -69,9 +28,8 @@
         android:id="@+id/reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_below="@+id/planets_spinner"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         android:text="Enter" />
 
 </RelativeLayout>

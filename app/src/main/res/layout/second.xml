@@ -87,8 +87,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textAppearance="?android:attr/textAppearanceMedium"
-                                    android:text="GOVT. Notifications"
+                                    android:text="Recent Notifications"
                                     android:textStyle="bold"
+                                    android:textAlignment="center"
                                     android:textColor="@android:color/white"
                                     android:layout_marginTop="5dp" />
                             </LinearLayout>
@@ -161,16 +162,17 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:id="@+id/imageView4"
-                                    android:src="@drawable/electricity" />
+                                    android:src="@drawable/transition" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textAppearance="?android:attr/textAppearanceMedium"
-                                    android:text="Electricity Issues"
+                                    android:text="History"
                                     android:textStyle="bold"
                                     android:textColor="@android:color/white"
-                                    android:layout_marginTop="5dp" />
+                                    android:layout_marginTop="5dp"
+                                    android:textAlignment="center"/>
                             </LinearLayout>
 
                         </RelativeLayout>
@@ -270,8 +272,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textAppearance="?android:attr/textAppearanceMedium"
-                                    android:text="Licences"
+                                    android:text="Request new Document"
                                     android:textStyle="bold"
+                                    android:textAlignment="center"
                                     android:textColor="@android:color/white"
                                     android:layout_marginTop="5dp" />
                             </LinearLayout>
@@ -524,7 +527,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textAppearance="?android:attr/textAppearanceMedium"
-                                    android:text="Complaints!"
+                                    android:text="Raise my Complaint"
+                                    android:textAlignment="center"
                                     android:textStyle="bold"
                                     android:textColor="@android:color/white"
                                     android:layout_marginTop="5dp" />
