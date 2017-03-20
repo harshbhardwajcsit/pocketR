@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "27110141586",
+    "firebase_url": "https://pocketr-15434.firebaseio.com",
+    "project_id": "pocketr-15434",
+    "storage_bucket": "pocketr-15434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27110141586:android:411e00611cd736a8",
+        "android_client_info": {
+          "package_name": "com.harsh.techinnova.rpocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27110141586-iqgh7fs02df4g7lm6v96aqnacva52p4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPOewERZ-T_B2OOeeXeDKl8ibCPdFOwPE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
