@@ -74,12 +74,13 @@ public class Licence extends Activity implements AdapterView.OnItemSelectedListe
                 String Student_name=name.getText().toString();
                 String Contact=contact.getText().toString();
                 String Adhaar=adhaar.getText().toString();
-
+                String status="False";
                 LicenceModel lm=new LicenceModel();
                 lm.setName(Student_name);
                 lm.setContact(Contact);
                 lm.setAdhaar(Adhaar);
                 lm.setRequest(text1);
+                lm.setStatus(status);
                 Firebase ref = new Firebase("https://pocketr-15434.firebaseio.com/");//firebase storage Api
                 ref.child("Licences").child(Adhaar).setValue(lm);
 

@@ -30,14 +30,14 @@
     </EditText>
 
     <EditText
-        android:id="@+id/adhaar"
+        android:id="@+id/eid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/contact"
         android:layout_below="@+id/contact"
         android:layout_marginTop="21dp"
         android:ems="10"
-        android:hint="ADHAAR Number"
+        android:hint="EmailId"
         android:inputType="number"
         android:singleLine="true" />
 
@@ -62,7 +62,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
-        android:layout_below="@+id/adhaar"
+        android:layout_below="@+id/eid"
         android:ems="10"
         android:textSize="20sp"
         android:singleLine="true"

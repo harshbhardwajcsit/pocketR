@@ -2,10 +2,6 @@ package com.harsh.techinnova.rpocket;
 
 import android.app.Activity;
 import android.os.Bundle;
-
-/**
- * Created by samsung on 19-Mar-17.
- */
 public class MakePayment extends Activity {
 
     @Override
@@ -13,4 +9,11 @@ public class MakePayment extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.payment_types);
     }
+
+
+
+
+
+
+
 }
