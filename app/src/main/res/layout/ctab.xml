@@ -93,6 +93,7 @@
                                     android:textAppearance="?android:attr/textAppearanceMedium"
                                     android:text="Animals complaints"
                                     android:textStyle="bold"
+                                    android:textAlignment="center"
                                     android:textColor="@android:color/white"
                                     android:layout_marginTop="5dp" />
                             </LinearLayout>

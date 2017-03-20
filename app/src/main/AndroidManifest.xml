@@ -35,6 +35,9 @@
         <activity
             android:name=".Licence"
             android:label="Welcome to the Rpocket" />
+        <activity
+            android:name=".History"
+            android:label="Welcome to the Rpocket" />
     </application>
 
 </manifest>
