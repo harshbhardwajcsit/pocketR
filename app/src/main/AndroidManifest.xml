@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.harsh.techinnova.rpocket" >
+    package="com.harsh.techinnova.rpocket">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,8 +12,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label=""
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".First" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".First">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,6 +35,8 @@
         <activity
             android:name=".Licence"
             android:label="Welcome to the Rpocket" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>

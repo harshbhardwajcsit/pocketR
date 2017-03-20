@@ -30,7 +30,7 @@ public class LiveNotification extends Activity {
         super.onStart();
 
         //link to the message in the cloud server
-        Firebase nofication=root.child("message");
+        Firebase nofication=root.child("Message");
         nofication.addValueEventListener(new ValueEventListener() {
             @Override
 

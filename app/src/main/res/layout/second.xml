@@ -49,10 +49,6 @@
                     android:elevation="10dp"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground"
-
-
-
-
                     >
 
                     <RelativeLayout
