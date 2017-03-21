@@ -87,17 +87,9 @@ public class Licence extends Activity implements AdapterView.OnItemSelectedListe
                 lm.setRequest(text1);
                 lm.setDate(TimeStamp);
                 Firebase ref = new Firebase("https://pocketr-15434.firebaseio.com/");//firebase storage Api
-<<<<<<< HEAD
-                ref.child("Licences").child(Adhaar).setValue(lm);
-                ref.child("History").child("Licence").setValue(lm);
-
-                Toast.makeText(getBaseContext(), "Your Request is Registered", Toast.LENGTH_LONG).show();
-
-=======
                 Firebase dbref = ref.child("History").push();
                 ref.child("History").child(dbref.getKey()).setValue(lm);
                 Toast.makeText(getBaseContext(), "Your Request is Registered Successfully.", Toast.LENGTH_LONG).show();
->>>>>>> 32678a498d7f31c7ded666d5a0f624ba9a06521d
                 Intent intent=new Intent(Licence.this,Second.class);
                 startActivity(intent);
 
