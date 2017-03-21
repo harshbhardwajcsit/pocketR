@@ -83,6 +83,7 @@ public class Licence extends Activity implements AdapterView.OnItemSelectedListe
                 lm.setStatus(status);
                 Firebase ref = new Firebase("https://pocketr-15434.firebaseio.com/");//firebase storage Api
                 ref.child("Licences").child(Adhaar).setValue(lm);
+                ref.child("History").child("Licence").setValue(lm);
 
                 Toast.makeText(getBaseContext(), "Your Request is Registered", Toast.LENGTH_LONG).show();
 

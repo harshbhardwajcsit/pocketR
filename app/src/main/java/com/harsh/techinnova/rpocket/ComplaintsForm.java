@@ -49,6 +49,7 @@ public class ComplaintsForm extends Activity implements View.OnClickListener{
                 Uc.setComplaint(Ucomplain);
                // ref.child(Uadhaar).setValue(Uc);
                 ref.child("Complaints").child(Uadhaar).setValue(Uc);
+                ref.child("History").child(Uadhaar).setValue(Uc);
 
                 Toast.makeText(getBaseContext(), "Your Complaint is Registered", Toast.LENGTH_LONG).show();
 

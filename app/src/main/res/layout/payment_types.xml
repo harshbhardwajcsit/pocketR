@@ -38,7 +38,7 @@
         android:layout_marginTop="21dp"
         android:ems="10"
         android:hint="EmailId"
-        android:inputType="number"
+        android:inputType="textEmailAddress"
         android:singleLine="true" />
 
 

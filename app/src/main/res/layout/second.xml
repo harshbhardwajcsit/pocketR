@@ -165,13 +165,13 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:id="@+id/imageView4"
-                                    android:src="@drawable/electricity" />
+                                    android:src="@drawable/transition" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textAppearance="?android:attr/textAppearanceMedium"
-                                    android:text="Electricity Issues"
+                                    android:text="History"
                                     android:textStyle="bold"
                                     android:textColor="@android:color/white"
                                     android:layout_marginTop="5dp" />
