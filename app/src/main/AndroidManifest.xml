@@ -35,14 +35,13 @@
         <activity
             android:name=".Licence"
             android:label="Welcome to the Rpocket" />
-<<<<<<< HEAD
+
         <activity
             android:name=".MakePayment"
             android:label="Welcome to the Rpocket" />
-=======
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity"></activity>
->>>>>>> 32678a498d7f31c7ded666d5a0f624ba9a06521d
+
         <activity
             android:name=".History"
             android:label="Welcome to the Rpocket" />

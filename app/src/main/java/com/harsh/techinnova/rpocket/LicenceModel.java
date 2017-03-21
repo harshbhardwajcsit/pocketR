@@ -23,13 +23,4 @@ public class LicenceModel {
     public void setDate(String Date) {this.TimeStamp=Date;}
     public void setStatus(String Status){this.Status=Status;}
 
-<<<<<<< HEAD
-
-
-
-
-
-
-=======
->>>>>>> 32678a498d7f31c7ded666d5a0f624ba9a06521d
 }
