@@ -35,16 +35,15 @@
         <activity
             android:name=".Licence"
             android:label="Welcome to the Rpocket" />
-
         <activity
             android:name=".MakePayment"
             android:label="Welcome to the Rpocket" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity"></activity>
-
+        <activity android:name=".RegisterActivity" />
         <activity
             android:name=".History"
             android:label="Welcome to the Rpocket" />
+        <activity android:name=".ListActivity"></activity>
     </application>
 
 </manifest>
