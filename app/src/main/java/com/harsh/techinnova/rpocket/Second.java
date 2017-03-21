@@ -54,7 +54,7 @@ public class Second extends Activity implements View.OnClickListener{
                 startActivity(new Intent(Second.this,MakePayment.class));
                 break;
             case R.id.complaints:
-                startActivity(new Intent(Second.this,ComplaintsForm.class));
+                startActivity(new Intent(Second.this,Complaints.class));
                 break;
 
         }

@@ -23,7 +23,7 @@ public class First extends Activity {
                     e.printStackTrace();
                 }finally{
 
-                    Intent intent = new Intent(First.this,Second.class);
+                    Intent intent = new Intent(First.this,LoginActivity.class);
                     startActivity(intent);
                 }
             }

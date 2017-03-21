@@ -34,12 +34,19 @@ public class History extends Activity {
         nofication.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+<<<<<<< HEAD
 
                 for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
                     History post = postSnapshot.getValue(History.class);
                     textView.setText(textView.getText());
                 }
 
+=======
+                for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
+                    LicenceModel post = postSnapshot.getValue(LicenceModel.class);
+                    textView.setText(textView.getText()+post.Request);
+                }
+>>>>>>> 32678a498d7f31c7ded666d5a0f624ba9a06521d
             }
             @Override
             public void onCancelled(FirebaseError firebaseError) {
@@ -47,4 +54,8 @@ public class History extends Activity {
             }
         });
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 32678a498d7f31c7ded666d5a0f624ba9a06521d
